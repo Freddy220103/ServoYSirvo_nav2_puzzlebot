@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/alfredog/ros2_ws/src/install/tf_examples/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/src/install/puzzlebot_sim/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/src/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/src/install/Servo/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/install/tf_examples/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/alfredog/ros2_ws/src/install/tf_examples/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/src/install/puzzlebot_sim/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/src/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/src/install/Servo/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/install/tf_examples/lib/python3.10/site-packages",
+        "/home/alfredog/ros2_ws/install/puzzlebot_sim/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
