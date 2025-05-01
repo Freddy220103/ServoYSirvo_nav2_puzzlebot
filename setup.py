@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'NombreDelEquipo_nav2_puzzlebot'
+package_name = 'ServoYSirvo_nav2_puzzlebot'
 
 setup(
     name=package_name,
