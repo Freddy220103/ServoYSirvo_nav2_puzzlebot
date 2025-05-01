@@ -3,9 +3,9 @@
 <package format="3">
   <name>ServoYSirvo_nav2_puzzlebot</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Paquete de navegación autónoma para PuzzleBot con Nav2</description>
   <maintainer email="alfredo220103@gmail.com">alfredog</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>nav2_msgs</depend>

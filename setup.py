@@ -1,32 +1,29 @@
+import os
+from glob import glob
 from setuptools import setup
 
-package_name = 'ServoYSirvo_nav2_puzzlebot'
+package_name = 'ServoYSirvo_nav2_puzzlebot'  # Nombre original
 
 setup(
     name=package_name,
     version='0.0.1',
     packages=[package_name],
     data_files=[
-        ('share/ament_index/resource_index/packages',
-            ['resource/' + package_name]),
+        ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/simulation_launch.py']),
-        ('share/' + package_name + '/launch', ['launch/navigation_launch.py']),
-        ('share/' + package_name + '/launch', ['launch/slam_launch.py']),
-        ('share/' + package_name + '/config', ['config/nav2_params.yaml']),
-        ('share/' + package_name + '/config', ['config/mapper_params_online_async.yaml']),
-        ('share/' + package_name + '/rviz', ['config/rviz/nav.rviz']),
-        ('share/' + package_name + '/rviz', ['config/rviz/slam.rviz']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
+        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
+        (os.path.join('share', package_name, 'config', 'rviz'), glob('config/rviz/*.rviz')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.world')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Pili Dávila, Noel Madrid, Alfredo Gómez, Héctor Cervantes',
-    maintainer_email='A01708943@tec.mx A01562528@tec.mx A01704189@tec.mx, A01571242@tec.mx',
+    maintainer='alfredog',
+    maintainer_email='alfredo220103@gmail.com',
     description='Paquete de navegación autónoma para PuzzleBot con Nav2',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        ],
+        'console_scripts': [],
     },
 )
