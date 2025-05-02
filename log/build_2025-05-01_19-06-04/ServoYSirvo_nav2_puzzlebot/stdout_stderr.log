@@ -1,0 +1,36 @@
+running egg_info
+creating build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info
+writing build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/PKG-INFO
+writing dependency_links to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/dependency_links.txt
+writing entry points to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/entry_points.txt
+writing requirements to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/requires.txt
+writing top-level names to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/top_level.txt
+writing manifest file 'build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/SOURCES.txt'
+reading manifest file 'build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/SOURCES.txt'
+writing manifest file 'build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+copying ServoYSirvo_nav2_puzzlebot/__init__.py -> /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+running install
+running install_lib
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+copying /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/__init__.py -> /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+byte-compiling /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index/resource_index
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index/resource_index/packages
+copying resource/ServoYSirvo_nav2_puzzlebot -> /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index/resource_index/packages
+copying package.xml -> /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+copying launch/simulation_launch.py -> /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/config
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/config/rviz
+creating /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+running install_egg_info
+Copying build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info to /home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pilid/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/install.log'

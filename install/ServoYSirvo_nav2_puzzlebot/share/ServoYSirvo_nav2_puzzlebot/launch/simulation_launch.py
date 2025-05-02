@@ -7,7 +7,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     pkg_path = get_package_share_directory('ServoYSirvo_nav2_puzzlebot')
-    world_file = os.path.join(pkg_path, 'worlds', 'world_prueba.world')
+    world_file = os.path.join(pkg_path, 'worlds', 'puzzlebot_track.world')
     
     gazebo = ExecuteProcess(
         cmd=['gazebo', '--verbose', world_file, '-s', 'libgazebo_ros_init.so'],
