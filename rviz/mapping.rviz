@@ -1,0 +1,36 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.7
+      Cell Size: 0.05
+      Class: rviz/Grid
+      Color: 160; 160; 160
+      Name: Grid
+    - Class: rviz/Map
+      Name: Map
+      Topic: /map
+    - Class: rviz/TF
+      Name: TF
+    - Class: rviz/RobotModel
+      Name: RobotModel
+    - Class: rviz/LaserScan
+      Name: Laser
+      Topic: /scan
+      Queue Size: 10
+      Color Transformer: Intensity
+    - Class: rviz/Pose
+      Name: Initial Pose
+      Topic: /initialpose
+  Enabled: true
+  Global Options:
+    Fixed Frame: map
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz/PublishPoint
+  Value: true
