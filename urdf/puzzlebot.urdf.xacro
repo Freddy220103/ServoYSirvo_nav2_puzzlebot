@@ -11,14 +11,14 @@
     <visual>
       <origin xyz="0 0 0.05" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/Puzzlebot_Jetson_Lidar_Edition_Base.stl"/>
+        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/bases/Puzzlebot_Jetson_Lidar_Edition_Base.stl"/>
       </geometry>
       <material name="gray"/>
     </visual>
     <collision>
       <origin xyz="0 0 0.05" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/Puzzlebot_Jetson_Lidar_Edition_Base.stl"/>
+        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/bases/Puzzlebot_Jetson_Lidar_Edition_Base.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -34,7 +34,7 @@
     <visual>
       <origin xyz="-0.095 0.0 -0.03" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/Puzzlebot_Caster_Wheel.stl"/>
+        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/wheels/Puzzlebot_Caster_Wheel.stl"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -50,7 +50,7 @@
     <visual>
       <origin xyz="0.052 0.095 -0.0025" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/Puzzlebot_Wheel.stl"/>
+        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/wheels/Puzzlebot_Wheel.stl"/>
       </geometry>
       <material name="gray"/>
     </visual>
@@ -67,7 +67,7 @@
     <visual>
       <origin xyz="0.052 -0.095 -0.0025" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/Puzzlebot_Wheel.stl"/>
+        <mesh filename="package://ServoYSirvo_nav2_puzzlebot/meshes/wheels/Puzzlebot_Wheel.stl"/>
       </geometry>
       <material name="gray"/>
     </visual>
