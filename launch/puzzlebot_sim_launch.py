@@ -54,11 +54,6 @@ def generate_launch_description():
         parameters=[use_sim_time_param]
     )
 
-    point_stab = Node(
-        package='ServoYSirvo_nav2_puzzlebot',
-        executable='point_stabilisation_control',
-        parameters=[use_sim_time_param]
-    )
 
     return LaunchDescription([
         static_tf_1,
@@ -67,6 +62,5 @@ def generate_launch_description():
         my_rqt_node,
         localisation,
         kinematic,
-        joint_pub,
-        point_stab
+        joint_pub
     ])
