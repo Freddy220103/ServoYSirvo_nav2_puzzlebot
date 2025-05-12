@@ -49,13 +49,22 @@ def generate_launch_description():
     static_tf_1 = Node(
         package='tf2_ros',
         executable='static_transform_publisher',
-        arguments=['0', '1.0', '0', '0', '0', '0', 'map', 'odom'],
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom'],
+        output='screen',
+        parameters=[use_sim_time_param]
+    )
+
+    pruebita = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'world'],
         output='screen',
         parameters=[use_sim_time_param]
     )
 
 
     return LaunchDescription([
+        # pruebita, 
         static_tf_1,
         df_1,
         my_rviz_node,
