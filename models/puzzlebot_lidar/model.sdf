@@ -40,7 +40,7 @@
             <sensor name='gpu_lidar' type='gpu_lidar'>"
                 <pose relative_to='lidar_frame'>0 0 0 0 0 0</pose>
                 <topic>lidar</topic>
-                <update_rate>3</update_rate>
+                <update_rate>5</update_rate>
                 <ray>
                     <scan>
                         <horizontal>
