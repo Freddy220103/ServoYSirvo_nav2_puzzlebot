@@ -12,7 +12,7 @@ def generate_launch_description():
     #                          SIMULATION CONFIGURATION
     # -----------------------------------------------------------------------------
 
-    world = 'mundo.world'
+    world = 'mundo1.world'
     pause = 'true'
     verbosity = '4'
     use_sim_time = 'True'
@@ -21,7 +21,7 @@ def generate_launch_description():
         {
             'name': '',
             'type': 'puzzlebot_jetson_lidar_ed',
-            'x': 0.2, 'y': 0.2, 'yaw': 0.0,
+            'x': 0.0, 'y': 0.0, 'yaw': 0.0,
             'lidar_frame': 'laser_frame',
             'camera_frame': 'camera_link_optical',
             'tof_frame': 'tof_link'
