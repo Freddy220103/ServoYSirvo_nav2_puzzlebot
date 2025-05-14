@@ -1,9 +1,0 @@
-[console_scripts]
-dynamic_tf = ServoYSirvo_nav2_puzzlebot.dynamic_tf:main
-joint_state_pub = ServoYSirvo_nav2_puzzlebot.joint_state_pub:main
-localisation = ServoYSirvo_nav2_puzzlebot.localisation:main
-point_stabilisation_control = ServoYSirvo_nav2_puzzlebot.point_stabilisation_control:main
-puzzlebot_kinematic_model = ServoYSirvo_nav2_puzzlebot.puzzlebot_kinematic_model:main
-static_tf = ServoYSirvo_nav2_puzzlebot.static_tf:main
-uncertainty_ellipse = ServoYSirvo_nav2_puzzlebot.uncertainty_ellipse:main
-
