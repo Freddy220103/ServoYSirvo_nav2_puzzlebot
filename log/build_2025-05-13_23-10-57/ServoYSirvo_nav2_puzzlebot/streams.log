@@ -1,0 +1,385 @@
+[0.592s] Invoking command in '/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot': PYTHONPATH=/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ServoYSirvo_nav2_puzzlebot build --build-base /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build install --record /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/install.log --single-version-externally-managed install_data
+[0.801s] running egg_info
+[0.802s] creating build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info
+[0.802s] writing build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/PKG-INFO
+[0.802s] writing dependency_links to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/dependency_links.txt
+[0.802s] writing entry points to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/entry_points.txt
+[0.802s] writing requirements to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/requires.txt
+[0.802s] writing top-level names to build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/top_level.txt
+[0.802s] writing manifest file 'build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/SOURCES.txt'
+[0.804s] reading manifest file 'build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/SOURCES.txt'
+[0.804s] adding license file 'LICENSE'
+[0.806s] writing manifest file 'build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info/SOURCES.txt'
+[0.806s] running build
+[0.806s] running build_py
+[0.806s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build
+[0.806s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib
+[0.807s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/localisation.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/uncertainty_ellipse.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/puzzlebot_kinematic_model.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/static_tf.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/dynamic_tf.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/__init__.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/point_stabilisation_control.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] copying ServoYSirvo_nav2_puzzlebot/joint_state_pub.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot
+[0.807s] running install
+[0.807s] running install_lib
+[0.808s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/localisation.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/uncertainty_ellipse.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/puzzlebot_kinematic_model.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/static_tf.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/dynamic_tf.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/__init__.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/point_stabilisation_control.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.808s] copying /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build/lib/ServoYSirvo_nav2_puzzlebot/joint_state_pub.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot
+[0.809s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/localisation.py to localisation.cpython-310.pyc
+[0.810s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/uncertainty_ellipse.py to uncertainty_ellipse.cpython-310.pyc
+[0.810s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/puzzlebot_kinematic_model.py to puzzlebot_kinematic_model.cpython-310.pyc
+[0.811s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/static_tf.py to static_tf.cpython-310.pyc
+[0.811s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/dynamic_tf.py to dynamic_tf.cpython-310.pyc
+[0.811s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/__init__.py to __init__.cpython-310.pyc
+[0.811s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/point_stabilisation_control.py to point_stabilisation_control.cpython-310.pyc
+[0.812s] byte-compiling /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot/joint_state_pub.py to joint_state_pub.cpython-310.pyc
+[0.812s] running install_data
+[0.812s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index
+[0.812s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index/resource_index
+[0.812s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index/resource_index/packages
+[0.812s] copying resource/ServoYSirvo_nav2_puzzlebot -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ament_index/resource_index/packages
+[0.812s] copying package.xml -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot
+[0.812s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] copying launch/gazebo_example_launch.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] copying launch/gazebo_puzzlebot_launch.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] copying launch/bringup_simulation_simple_launch.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] copying launch/bringup_simulation_multi_launch.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] copying launch/puzzlebot_sim_launch.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] copying launch/gazebo_world_launch.py -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/launch
+[0.813s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/config
+[0.813s] copying config/puzzlebot_hacker_ed.yaml -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/config
+[0.814s] copying config/puzzlebot_jetson_lidar_ed.yaml -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/config
+[0.814s] copying config/puzzlebot_jetson_ed.yaml -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/config
+[0.814s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/rviz
+[0.814s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models
+[0.814s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/red_colored_box
+[0.815s] copying models/red_colored_box/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/red_colored_box
+[0.815s] copying models/red_colored_box/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/red_colored_box
+[0.815s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_model
+[0.816s] copying models/office_model/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_model
+[0.816s] copying models/office_model/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_model
+[0.816s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_1
+[0.816s] copying models/avoidance_world_1/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_1
+[0.817s] copying models/avoidance_world_1/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_1
+[0.817s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick
+[0.817s] copying models/box_brick/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick
+[0.818s] copying models/box_brick/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick
+[0.818s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick/materials
+[0.818s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick/materials/textures
+[0.818s] copying models/box_brick/materials/textures/0032-512x512.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick/materials/textures
+[0.819s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick/meshes
+[0.819s] copying models/box_brick/meshes/box_brick.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/box_brick/meshes
+[0.819s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000
+[0.820s] copying models/aruco000/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000
+[0.820s] copying models/aruco000/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000
+[0.820s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000/materials
+[0.820s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000/materials/textures
+[0.821s] copying models/aruco000/materials/textures/16h3_000.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000/materials/textures
+[0.821s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000/meshes
+[0.821s] copying models/aruco000/meshes/aruco000.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000/meshes
+[0.821s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame
+[0.821s] copying models/arena_a_frame/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame
+[0.822s] copying models/arena_a_frame/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame
+[0.822s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame/materials
+[0.822s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame/materials/textures
+[0.822s] copying models/arena_a_frame/materials/textures/mcr2_banner.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame/materials/textures
+[0.823s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame/meshes
+[0.823s] copying models/arena_a_frame/meshes/MCR2_arena_side.stl -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/arena_a_frame/meshes
+[0.823s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media
+[0.824s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials
+[0.824s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/scripts
+[0.824s] copying models/media/materials/scripts/mcr2_materials.material -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/scripts
+[0.824s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.824s] copying models/media/materials/textures/puzzlebot_logo_white.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.824s] copying models/media/materials/textures/mcr2_goal_1.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.825s] copying models/media/materials/textures/nvidia_logo_black.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.826s] copying models/media/materials/textures/puzzlebot_logo.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.826s] copying models/media/materials/textures/mcr2_logo_black.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.827s] copying models/media/materials/textures/mcr2_goal_2.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.828s] copying models/media/materials/textures/puzzlebot_wood_6.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.830s] copying models/media/materials/textures/mcr2_goal_3.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.831s] copying models/media/materials/textures/mcr2_goal_4.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.831s] copying models/media/materials/textures/nvidia_logo_b_w.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.832s] copying models/media/materials/textures/mcr2_goal_5.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.833s] copying models/media/materials/textures/puzzlebot_wood_4.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.839s] copying models/media/materials/textures/puzzlebot_wood_7.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.845s] copying models/media/materials/textures/nvidia_logo_white.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.845s] copying models/media/materials/textures/nvidia_hz_logo_white.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.846s] copying models/media/materials/textures/puzzlebot_wood_5.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.853s] copying models/media/materials/textures/mcr2_banner.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.854s] copying models/media/materials/textures/wood_floor.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.855s] copying models/media/materials/textures/mcr2_logo_white.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures
+[0.855s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.855s] copying models/media/materials/textures/aruco_markers/marker4.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.856s] copying models/media/materials/textures/aruco_markers/marker5.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.856s] copying models/media/materials/textures/aruco_markers/marker1.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.857s] copying models/media/materials/textures/aruco_markers/marker0.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.857s] copying models/media/materials/textures/aruco_markers/marker3.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.857s] copying models/media/materials/textures/aruco_markers/marker2.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/media/materials/textures/aruco_markers
+[0.858s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_camera
+[0.858s] copying models/puzzlebot_camera/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_camera
+[0.858s] copying models/puzzlebot_camera/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_camera
+[0.859s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_camera/meshes
+[0.859s] copying models/puzzlebot_camera/meshes/chassis1.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_camera/meshes
+[0.901s] copying models/puzzlebot_camera/meshes/wheel.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_camera/meshes
+[0.903s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/plugins
+[0.904s] copying models/plugins/libDiffDynamicPlugin.so -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/plugins
+[0.910s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_2
+[0.910s] copying models/goal_marker_2/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_2
+[0.910s] copying models/goal_marker_2/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_2
+[0.910s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_2/materials
+[0.910s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_2/materials/textures
+[0.911s] copying models/goal_marker_2/materials/textures/mcr2_goal_2.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_2/materials/textures
+[0.911s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv
+[0.911s] copying models/aruco001_cv/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv
+[0.911s] copying models/aruco001_cv/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv
+[0.912s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv/materials
+[0.912s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv/materials/textures
+[0.912s] copying models/aruco001_cv/materials/textures/4x4_50_001.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv/materials/textures
+[0.912s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv/meshes
+[0.912s] copying models/aruco001_cv/meshes/aruco001.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001_cv/meshes
+[0.913s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_4
+[0.913s] copying models/goal_marker_4/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_4
+[0.913s] copying models/goal_marker_4/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_4
+[0.913s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_4/materials
+[0.913s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_4/materials/textures
+[0.914s] copying models/goal_marker_4/materials/textures/mcr2_goal_4.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_4/materials/textures
+[0.914s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_base
+[0.914s] copying models/puzzlebot_base/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_base
+[0.914s] copying models/puzzlebot_base/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_base
+[0.915s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_base/materials
+[0.915s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_base/materials/textures
+[0.915s] copying models/puzzlebot_base/materials/textures/puzzlebot_wood_6.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_base/materials/textures
+[0.918s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_2
+[0.918s] copying models/avoidance_world_2/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_2
+[0.918s] copying models/avoidance_world_2/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_2
+[0.918s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv
+[0.918s] copying models/aruco003_cv/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv
+[0.919s] copying models/aruco003_cv/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv
+[0.919s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv/materials
+[0.919s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv/materials/textures
+[0.919s] copying models/aruco003_cv/materials/textures/4x4_50_003.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv/materials/textures
+[0.920s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv/meshes
+[0.920s] copying models/aruco003_cv/meshes/aruco003.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003_cv/meshes
+[0.920s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_0
+[0.920s] copying models/aruco_marker_0/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_0
+[0.920s] copying models/aruco_marker_0/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_0
+[0.921s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_0/materials
+[0.921s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_0/materials/textures
+[0.921s] copying models/aruco_marker_0/materials/textures/marker0.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_0/materials/textures
+[0.921s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001
+[0.921s] copying models/aruco001/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001
+[0.922s] copying models/aruco001/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001
+[0.922s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001/materials
+[0.922s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001/materials/textures
+[0.922s] copying models/aruco001/materials/textures/16h3_001.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001/materials/textures
+[0.922s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001/meshes
+[0.923s] copying models/aruco001/meshes/aruco001.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco001/meshes
+[0.923s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_3
+[0.923s] copying models/avoidance_world_3/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_3
+[0.923s] copying models/avoidance_world_3/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_3
+[0.924s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/modulo3_world
+[0.924s] copying models/modulo3_world/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/modulo3_world
+[0.924s] copying models/modulo3_world/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/modulo3_world
+[0.925s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_lidar
+[0.925s] copying models/puzzlebot_lidar/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_lidar
+[0.925s] copying models/puzzlebot_lidar/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_lidar
+[0.925s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_lidar/meshes
+[0.925s] copying models/puzzlebot_lidar/meshes/chassis1.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_lidar/meshes
+[0.968s] copying models/puzzlebot_lidar/meshes/wheel.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_lidar/meshes
+[0.971s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_3
+[0.971s] copying models/aruco_marker_3/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_3
+[0.971s] copying models/aruco_marker_3/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_3
+[0.972s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_3/materials
+[0.972s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_3/materials/textures
+[0.972s] copying models/aruco_marker_3/materials/textures/marker3.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_3/materials/textures
+[0.972s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv
+[0.972s] copying models/aruco000_cv/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv
+[0.973s] copying models/aruco000_cv/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv
+[0.973s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv/materials
+[0.973s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv/materials/textures
+[0.973s] copying models/aruco000_cv/materials/textures/4x4_50_000.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv/materials/textures
+[0.973s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv/meshes
+[0.973s] copying models/aruco000_cv/meshes/aruco000.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco000_cv/meshes
+[0.974s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_1
+[0.974s] copying models/goal_marker_1/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_1
+[0.974s] copying models/goal_marker_1/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_1
+[0.975s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_1/materials
+[0.975s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_1/materials/textures
+[0.975s] copying models/goal_marker_1/materials/textures/mcr2_goal_1.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_1/materials/textures
+[0.975s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot
+[0.975s] copying models/puzzlebot/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot
+[0.976s] copying models/puzzlebot/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot
+[0.976s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[0.976s] copying models/puzzlebot/meshes/box13_16.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[0.979s] copying models/puzzlebot/meshes/camera.stl -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[0.983s] copying models/puzzlebot/meshes/wheel.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[0.988s] copying models/puzzlebot/meshes/chassis1.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.022s] copying models/puzzlebot/meshes/world_wall1.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.025s] copying models/puzzlebot/meshes/wheel.blend1 -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.028s] copying models/puzzlebot/meshes/wheel.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.030s] copying models/puzzlebot/meshes/world_wall1.blend1 -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.032s] copying models/puzzlebot/meshes/box9_12.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.035s] copying models/puzzlebot/meshes/box1_4.blend1 -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.037s] copying models/puzzlebot/meshes/box1-5.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.039s] copying models/puzzlebot/meshes/box5_8.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.041s] copying models/puzzlebot/meshes/chassis1.blend -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.078s] copying models/puzzlebot/meshes/chassis1.blend1 -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.116s] copying models/puzzlebot/meshes/chassis.stl -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.141s] copying models/puzzlebot/meshes/wheel.stl -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.143s] copying models/puzzlebot/meshes/box5_8.blend1 -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot/meshes
+[1.145s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/blue_colored_box
+[1.145s] copying models/blue_colored_box/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/blue_colored_box
+[1.145s] copying models/blue_colored_box/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/blue_colored_box
+[1.145s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_5
+[1.146s] copying models/aruco_marker_5/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_5
+[1.146s] copying models/aruco_marker_5/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_5
+[1.146s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_5/materials
+[1.146s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_5/materials/textures
+[1.146s] copying models/aruco_marker_5/materials/textures/marker5.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_5/materials/textures
+[1.146s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv
+[1.146s] copying models/aruco002_cv/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv
+[1.147s] copying models/aruco002_cv/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv
+[1.147s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv/materials
+[1.147s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv/materials/textures
+[1.147s] copying models/aruco002_cv/materials/textures/4x4_50_002.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv/materials/textures
+[1.147s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv/meshes
+[1.147s] copying models/aruco002_cv/meshes/aruco002.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002_cv/meshes
+[1.147s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_track
+[1.147s] copying models/puzzlebot_track/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_track
+[1.148s] copying models/puzzlebot_track/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_track
+[1.148s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_track/materials
+[1.148s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_track/materials/textures
+[1.148s] copying models/puzzlebot_track/materials/textures/puzzlebot_track.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/puzzlebot_track/materials/textures
+[1.148s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_4
+[1.149s] copying models/avoidance_world_4/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_4
+[1.149s] copying models/avoidance_world_4/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/avoidance_world_4
+[1.149s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002
+[1.149s] copying models/aruco002/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002
+[1.149s] copying models/aruco002/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002
+[1.150s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002/materials
+[1.150s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002/materials/textures
+[1.150s] copying models/aruco002/materials/textures/16h3_002.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002/materials/textures
+[1.150s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002/meshes
+[1.150s] copying models/aruco002/meshes/aruco002.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco002/meshes
+[1.150s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/empty
+[1.150s] copying models/empty/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/empty
+[1.151s] copying models/empty/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/empty
+[1.151s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/simple_light
+[1.151s] copying models/simple_light/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/simple_light
+[1.151s] copying models/simple_light/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/simple_light
+[1.151s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003
+[1.151s] copying models/aruco003/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003
+[1.151s] copying models/aruco003/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003
+[1.152s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003/materials
+[1.152s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003/materials/textures
+[1.152s] copying models/aruco003/materials/textures/16h3_003.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003/materials/textures
+[1.152s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003/meshes
+[1.152s] copying models/aruco003/meshes/aruco003.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco003/meshes
+[1.152s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/yellow_colored_box
+[1.152s] copying models/yellow_colored_box/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/yellow_colored_box
+[1.153s] copying models/yellow_colored_box/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/yellow_colored_box
+[1.153s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box
+[1.153s] copying models/aruco_box/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box
+[1.153s] copying models/aruco_box/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box
+[1.153s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials
+[1.153s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.154s] copying models/aruco_box/materials/textures/marker4.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.154s] copying models/aruco_box/materials/textures/marker5.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.154s] copying models/aruco_box/materials/textures/marker1.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.154s] copying models/aruco_box/materials/textures/marker0.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.154s] copying models/aruco_box/materials/textures/marker3.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.154s] copying models/aruco_box/materials/textures/marker2.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_box/materials/textures
+[1.155s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_2
+[1.155s] copying models/aruco_marker_2/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_2
+[1.155s] copying models/aruco_marker_2/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_2
+[1.156s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_2/materials
+[1.156s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_2/materials/textures
+[1.156s] copying models/aruco_marker_2/materials/textures/marker2.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_2/materials/textures
+[1.156s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_4
+[1.156s] copying models/aruco_marker_4/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_4
+[1.156s] copying models/aruco_marker_4/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_4
+[1.156s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_4/materials
+[1.156s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_4/materials/textures
+[1.157s] copying models/aruco_marker_4/materials/textures/marker4.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_4/materials/textures
+[1.157s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall
+[1.157s] copying models/world_wall/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall
+[1.157s] copying models/world_wall/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall
+[1.157s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/materials
+[1.157s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/materials/textures
+[1.157s] copying models/world_wall/materials/textures/MapAll.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/materials/textures
+[1.159s] copying models/world_wall/materials/textures/0032-512x512.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/materials/textures
+[1.160s] copying models/world_wall/materials/textures/wood_floor.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/materials/textures
+[1.160s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/meshes
+[1.161s] copying models/world_wall/meshes/world_wall1.dae -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/meshes
+[1.161s] copying models/world_wall/meshes/0032-512x512.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/meshes
+[1.162s] copying models/world_wall/meshes/wood_floor.jpg -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/world_wall/meshes
+[1.162s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_3
+[1.162s] copying models/goal_marker_3/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_3
+[1.162s] copying models/goal_marker_3/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_3
+[1.162s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_3/materials
+[1.163s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_3/materials/textures
+[1.163s] copying models/goal_marker_3/materials/textures/mcr2_goal_3.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_3/materials/textures
+[1.163s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_1
+[1.163s] copying models/aruco_marker_1/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_1
+[1.163s] copying models/aruco_marker_1/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_1
+[1.163s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_1/materials
+[1.163s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_1/materials/textures
+[1.163s] copying models/aruco_marker_1/materials/textures/marker1.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/aruco_marker_1/materials/textures
+[1.164s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_5
+[1.164s] copying models/goal_marker_5/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_5
+[1.164s] copying models/goal_marker_5/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_5
+[1.164s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_5/materials
+[1.164s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_5/materials/textures
+[1.164s] copying models/goal_marker_5/materials/textures/mcr2_goal_5.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/goal_marker_5/materials/textures
+[1.164s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_floor
+[1.164s] copying models/office_floor/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_floor
+[1.165s] copying models/office_floor/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_floor
+[1.165s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_floor/materials
+[1.165s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_floor/materials/textures
+[1.165s] copying models/office_floor/materials/textures/puzzlebot_wood_7.png -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/models/office_floor/materials/textures
+[1.169s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.169s] copying worlds/obstacle_avoidance_4.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.169s] copying worlds/mundo.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.169s] copying worlds/puzzlebot_arena.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.169s] copying worlds/world_empty.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.169s] copying worlds/world_prueba.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.170s] copying worlds/obstacle_avoidance_1.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.170s] copying worlds/world_aruco_cv.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.170s] copying worlds/puzzlebot_track.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.170s] copying worlds/obstacle_avoidance_3.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.170s] copying worlds/obstacle_avoidance_2.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.171s] copying worlds/puzzlebot_world.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.171s] copying worlds/puzzlebot_arena_markers.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.171s] copying worlds/empty.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.171s] copying worlds/world_aruco_mip.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.171s] copying worlds/office.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.172s] copying worlds/mundo1.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.172s] copying worlds/puzzlebot_aruco_markers.world -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.172s] copying worlds/world_box.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds
+[1.172s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds/office_2
+[1.172s] copying worlds/office_2/model.sdf -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds/office_2
+[1.173s] copying worlds/office_2/model.config -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/worlds/office_2
+[1.173s] creating /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/plugins
+[1.173s] copying plugins/libDiffDynamicPlugin.so -> /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/share/ServoYSirvo_nav2_puzzlebot/plugins
+[1.177s] running install_egg_info
+[1.179s] Copying build/ServoYSirvo_nav2_puzzlebot/ServoYSirvo_nav2_puzzlebot.egg-info to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages/ServoYSirvo_nav2_puzzlebot-0.0.0-py3.10.egg-info
+[1.179s] running install_scripts
+[1.195s] Installing dynamic_tf script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.196s] Installing joint_state_pub script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.196s] Installing localisation script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.196s] Installing point_stabilisation_control script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.196s] Installing puzzlebot_kinematic_model script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.196s] Installing static_tf script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.196s] Installing uncertainty_ellipse script to /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/ServoYSirvo_nav2_puzzlebot
+[1.197s] writing list of installed files to '/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/install.log'
+[1.219s] Invoked command in '/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot' returned '0': PYTHONPATH=/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/install/ServoYSirvo_nav2_puzzlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ServoYSirvo_nav2_puzzlebot build --build-base /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/build install --record /home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/build/ServoYSirvo_nav2_puzzlebot/install.log --single-version-externally-managed install_data
