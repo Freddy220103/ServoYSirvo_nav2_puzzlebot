@@ -62,6 +62,22 @@ class Localisation(Node):
         self.update_pose(v, w)  
         odom_msg = self.fill_odom_message(self.x, self.y, self.theta) 
         self.odom_pub.publish(odom_msg) 
+        self.publish_tf(self.x, self.y, self.theta, odom_msg.header.stamp)
+
+    def publish_tf(self, x, y, yaw, stamp):
+        t = TransformStamped()
+        t.header.stamp = stamp
+        t.header.frame_id = 'odom'
+        t.child_frame_id = 'base_footprint'
+        t.transform.translation.x = x
+        t.transform.translation.y = y
+        t.transform.translation.z = 0.0
+        q = transforms3d.euler.euler2quat(0, 0, yaw)
+        t.transform.rotation.w = q[0]
+        t.transform.rotation.x = q[1]
+        t.transform.rotation.y = q[2]
+        t.transform.rotation.z = q[3]
+        self.tf_broadcaster.sendTransform(t)
 
 
     def get_robot_vel(self, wr, wl): 
