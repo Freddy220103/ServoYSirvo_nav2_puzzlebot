@@ -48,7 +48,7 @@ class Localisation(Node):
         ])
 
         # Timer
-        timer_period = 0.02 
+        timer_period = 0.04 
         self.timer = self.create_timer(timer_period, self.timer_callback) 
 
     def wr_callback(self, msg): 

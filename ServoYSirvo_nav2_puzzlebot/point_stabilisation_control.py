@@ -36,7 +36,7 @@ class PointStabilisationNode(Node):
         self.theta = 0.0
         
         # Timer 
-        self.timer = self.create_timer(0.05, self.control_loop)
+        self.timer = self.create_timer(0.04, self.control_loop)
 
     def goal_cb(self,msg):
          self.goal_x = msg.position.x 

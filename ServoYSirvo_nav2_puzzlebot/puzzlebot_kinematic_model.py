@@ -37,7 +37,7 @@ class KinematicModelNode(Node):
 
          
 
-        timer_period = 0.02 # Desired time to update the robot's pose [s] 
+        timer_period = 0.04 # Desired time to update the robot's pose [s] 
 
         # Create a timer to publish the wheel speeds 
 

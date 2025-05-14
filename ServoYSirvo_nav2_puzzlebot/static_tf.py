@@ -8,8 +8,8 @@ class OdomToBaseTFPublisher(Node):
     def __init__(self):
         super().__init__('odom_to_base_tf_publisher')
         self.tf_broadcaster = TransformBroadcaster(self)
-        # Timer que llama a broadcast_tf cada 0.1 segundos
-        self.timer = self.create_timer(0.1, self.broadcast_tf)
+        # Timer que llama a broadcast_tf cada 0.04 segundos
+        self.timer = self.create_timer(0.04, self.broadcast_tf)
 
         # Valores de ejemplo (estos podrían venir de tu odometría)
         self.x = 0.0
