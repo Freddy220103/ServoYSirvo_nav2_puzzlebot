@@ -1,7 +1,0 @@
-image: map_prueba_new.pgm
-mode: trinary
-resolution: 0.05
-origin: [-1.74, -1.58, 0]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.25
