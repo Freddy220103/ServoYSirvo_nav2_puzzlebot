@@ -113,10 +113,8 @@ def generate_launch_description():
     # You can change the map name and path as needed
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
-    map_name = 'map_actualizado'  # Cambia al nombre que uses
-    base_path = get_package_share_directory('ServoYSirvo_nav2_puzzlebot')
-
-    # map_dir = os.path.join(base_path, f'{map_name}.yaml')
+    # Cambiar la ruta de mapa y param según sea necesario en tu sistema
+    # Asegúrate de tener el archivo map.yaml en la ruta correcta y param.yaml en la carpeta param
     map_dir = os.path.join('/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/map_actualizado.yaml')
     param_file = os.path.join('/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/param/puzzlebot.yaml')  # asegúrate de tener ese archivo
 
