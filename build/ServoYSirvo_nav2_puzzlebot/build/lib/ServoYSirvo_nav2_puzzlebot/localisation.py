@@ -61,8 +61,26 @@ class Localisation(Node):
         v, w = self.get_robot_vel(self.wr, self.wl) 
         self.update_pose(v, w)  
         odom_msg = self.fill_odom_message(self.x, self.y, self.theta) 
-        self.odom_pub.publish(odom_msg) 
-        self.publish_tf(self.x, self.y, self.theta, odom_msg.header.stamp)
+        # self.odom_pub.publish(odom_msg) 
+
+        # self.publish_tf(self.x, self.y, self.theta, odom_msg.header.stamp)
+
+        t = TransformStamped()
+        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.frame_id = 'odom'
+        t.child_frame_id = 'base_footprint'
+
+        t.transform.translation.x = self.x
+        t.transform.translation.y = self.y
+        t.transform.translation.z = 0.0
+        quat = transforms3d.euler.euler2quat(0, 0, self.theta)
+        t.transform.rotation.w = quat[0]
+        t.transform.rotation.x = quat[1]
+        t.transform.rotation.y = quat[2]
+        t.transform.rotation.z = quat[3]
+
+        self.tf_broadcaster.sendTransform(t)
+
 
     def publish_tf(self, x, y, yaw, stamp):
         t = TransformStamped()
@@ -111,7 +129,7 @@ class Localisation(Node):
         odom_msg = Odometry()  
         odom_msg.header.stamp = self.get_clock().now().to_msg()  
         odom_msg.header.frame_id = 'odom' 
-        odom_msg.child_frame_id = 'base_link'  
+        odom_msg.child_frame_id = 'base_footprint'  
 
         odom_msg.pose.pose.position.x = x  
         odom_msg.pose.pose.position.y = y  

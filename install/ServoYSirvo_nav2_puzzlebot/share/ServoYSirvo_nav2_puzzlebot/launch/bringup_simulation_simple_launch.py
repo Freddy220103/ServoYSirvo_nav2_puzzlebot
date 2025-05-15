@@ -108,7 +108,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         SetEnvironmentVariable('RCUTILS_LOGGING_BUFFERED_STREAM', '1'),
-        SetEnvironmentVariable('USE_SIM_TIME', 'true'),
+        SetEnvironmentVariable('USE_SIM_TIME', 'True'),
         gazebo_launch,
         *robot_launches,
     ])

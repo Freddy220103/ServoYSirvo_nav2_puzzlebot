@@ -29,7 +29,7 @@ def generate_launch_description():
     pos_th = '0.0'   # th angle
 
     # Simulation time and pause settings
-    sim_time = 'true'  # Set to 'true' for sim time
+    sim_time = 'True'  # Set to 'true' for sim time
     pause_gazebo = 'false' # Set to 'true' to start Gazebo in paused mode
 
     # Prefix, Camera, TOF and Lidar Frame names (Camera, TOF and Lidar only for Puzzlebot Jetson and Jetson Lidar Ed )

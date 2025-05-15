@@ -5,6 +5,8 @@ from launch.substitutions import TextSubstitution
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
 
 
 def generate_launch_description():
@@ -103,12 +105,41 @@ def generate_launch_description():
         robot_launches.append(puzzle_launch)
 
     # -----------------------------------------------------------------------------
+    #                          LOAD NAVIGATION CONFIGURATION
+    # -----------------------------------------------------------------------------
+    # Load the navigation configuration
+    # Make sure to have the map file in the correct path
+    # and the nav2_params.yaml file in the param folder
+    # You can change the map name and path as needed
+
+    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    map_name = 'map_actualizado'  # Cambia al nombre que uses
+    base_path = get_package_share_directory('ServoYSirvo_nav2_puzzlebot')
+
+    # map_dir = os.path.join(base_path, f'{map_name}.yaml')
+    map_dir = os.path.join('/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/map_actualizado.yaml')
+    param_file = os.path.join('/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/param/puzzlebot.yaml')  # asegúrate de tener ese archivo
+
+    nav2_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(get_package_share_directory('nav2_bringup'), 'launch', 'bringup_launch.py')
+        ),
+        launch_arguments={
+            'map': map_dir,
+            'use_sim_time': use_sim_time,
+            'params_file': param_file
+        }.items()
+    )
+
+
+    # -----------------------------------------------------------------------------
     #                          BUILD FINAL LAUNCH DESCRIPTION
     # -----------------------------------------------------------------------------
 
     return LaunchDescription([
         SetEnvironmentVariable('RCUTILS_LOGGING_BUFFERED_STREAM', '1'),
-        SetEnvironmentVariable('USE_SIM_TIME', 'true'),
+        SetEnvironmentVariable('USE_SIM_TIME', 'True'),
+        nav2_launch,
         gazebo_launch,
         *robot_launches,
     ])
