@@ -64,7 +64,7 @@ def generate_launch_description():
 
 
     return LaunchDescription([
-        pruebita, 
+        # pruebita, 
         static_tf_1,
         # df_1,
         my_rviz_node,
