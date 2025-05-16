@@ -17,7 +17,7 @@ def generate_launch_description():
     world = 'mundo1.world'
     pause = 'true'
     verbosity = '4'
-    use_sim_time = 'True'
+    use_sim_time = 'False'
 
     robot_config_list = [
         {
@@ -112,11 +112,11 @@ def generate_launch_description():
     # and the nav2_params.yaml file in the param folder
     # You can change the map name and path as needed
 
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='False')
     # Cambiar la ruta de mapa y param según sea necesario en tu sistema
     # Asegúrate de tener el archivo map.yaml en la ruta correcta y param.yaml en la carpeta param
-    map_dir = os.path.join('/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/map_actualizado.yaml')
-    param_file = os.path.join('/home/victorn65/ros2_ws/src/ServoYSirvo_nav2_puzzlebot/param/puzzlebot.yaml')  # asegúrate de tener ese archivo
+    map_dir = os.path.join('/home/hectorc/puzzle_world/src/ServoYSirvo_nav2_puzzlebot/map_actualizado.yaml')
+    param_file = os.path.join('/home/hectorc/puzzle_world/src/ServoYSirvo_nav2_puzzlebot/param/puzzlebot.yaml')  # asegúrate de tener ese archivo
 
     nav2_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -136,8 +136,9 @@ def generate_launch_description():
 
     return LaunchDescription([
         SetEnvironmentVariable('RCUTILS_LOGGING_BUFFERED_STREAM', '1'),
-        SetEnvironmentVariable('USE_SIM_TIME', 'True'),
+        SetEnvironmentVariable('USE_SIM_TIME', 'False'),
         nav2_launch,
-        gazebo_launch,
+        # cometar si es en fisico
+        # gazebo_launch,
         *robot_launches,
     ])

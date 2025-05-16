@@ -63,7 +63,7 @@ class Localisation(Node):
         odom_msg = self.fill_odom_message(self.x, self.y, self.theta) 
         self.odom_pub.publish(odom_msg) 
 
-        # self.publish_tf(self.x, self.y, self.theta, odom_msg.header.stamp)
+        self.publish_tf(self.x, self.y, self.theta, odom_msg.header.stamp)
 
         # t = TransformStamped()
         # t.header.stamp = self.get_clock().now().to_msg()

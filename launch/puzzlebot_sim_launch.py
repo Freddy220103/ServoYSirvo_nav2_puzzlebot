@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    use_sim_time_param = {'use_sim_time': True}
+    use_sim_time_param = {'use_sim_time': False}
 
     my_rviz_node = Node(
         package='rviz2',
