@@ -51,7 +51,7 @@ def generate_launch_description():
     )
 
     # ✅ GLOBAL ROS TIME SIMULATION ENABLED
-    set_sim_time = SetEnvironmentVariable('USE_SIM_TIME', 'true')
+    set_sim_time = SetEnvironmentVariable('USE_SIM_TIME', 'True')
 
     gz_launch_path = PathJoinSubstitution([pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py'])
 

@@ -5,7 +5,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    use_sim_time_param = {'use_sim_time': False}
+    use_sim_time_param = {'use_sim_time': True}
 
     my_rviz_node = Node(
         package='rviz2',
@@ -54,19 +54,11 @@ def generate_launch_description():
         parameters=[use_sim_time_param]
     )
 
-    pruebita = Node(
-        package='tf2_ros',
-        executable='static_transform_publisher',
-        arguments=['0', '0', '0', '0', '0', '0', 'world', 'map'],
-        output='screen',
-        parameters=[use_sim_time_param]
-    )
-
 
     return LaunchDescription([
-        # pruebita, 
         static_tf_1,
-        df_1,
+        # Comentar si se va a usar gazeebo y mapeo 
+        # df_1,
         my_rviz_node,
         my_rqt_node,
         localisation,
