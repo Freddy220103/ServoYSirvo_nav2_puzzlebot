@@ -30,6 +30,12 @@ Construir un sistema robótico funcional y autónomo que responda a un reto plan
 - Ignition Gazebo (Fortress o Garden)
 - Paquetes: `nav2_bringup`, `slam_toolbox`, `rviz2`, entre otros
 
+## NAVEGATION STACK CON SIMULACIÓN
+Terminal 1
+```ros2 launch ServoYSirvo_nav2_puzzlebot bringup_simulation_simple_launch.py```
+Terminal 2
+```ros2 run rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz```
+
 Instalación de dependencias y compilación:
 
 ```bash
